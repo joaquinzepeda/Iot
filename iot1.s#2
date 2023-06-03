@@ -24387,6 +24387,34 @@ to disable I2C pullup resistors</text>
 <wire x1="25.4" y1="137.16" x2="25.4" y2="127" width="0.1524" layer="91"/>
 <junction x="25.4" y="137.16"/>
 </segment>
+<segment>
+<pinref part="C15" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="88.9" x2="22.86" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="2"/>
+<wire x1="22.86" y1="88.9" x2="22.86" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="76.2" x2="27.94" y2="76.2" width="0.1524" layer="91"/>
+<label x="20.32" y="71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="GND"/>
+<wire x1="71.12" y1="63.5" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
+<label x="50.8" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="!CS"/>
+<wire x1="71.12" y1="68.58" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
+<label x="50.8" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="VREF-"/>
+<wire x1="93.98" y1="83.82" x2="109.22" y2="83.82" width="0.1524" layer="91"/>
+<label x="111.76" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="EXP"/>
+<wire x1="93.98" y1="63.5" x2="109.22" y2="63.5" width="0.1524" layer="91"/>
+<label x="111.76" y="63.5" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SOIL_MOISTURE_1" class="0">
 <segment>
@@ -24416,56 +24444,32 @@ to disable I2C pullup resistors</text>
 </segment>
 <segment>
 <pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="76.2" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="76.2" x2="40.64" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="88.9" x2="45.72" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="88.9" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="88.9" x2="40.64" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="88.9" x2="40.64" y2="76.2" width="0.1524" layer="91"/>
 <label x="40.64" y="91.44" size="1.778" layer="95"/>
 <pinref part="IC3" gate="G$1" pin="VCC"/>
-<wire x1="71.12" y1="88.9" x2="45.72" y2="88.9" width="0.1524" layer="91"/>
-<junction x="45.72" y="88.9"/>
+<wire x1="71.12" y1="88.9" x2="40.64" y2="88.9" width="0.1524" layer="91"/>
+<junction x="40.64" y="88.9"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="VREF+"/>
+<wire x1="93.98" y1="88.9" x2="109.22" y2="88.9" width="0.1524" layer="91"/>
+<label x="111.76" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="SDA" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="SDI"/>
 <wire x1="71.12" y1="78.74" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$29" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="SCK"/>
-<wire x1="71.12" y1="76.2" x2="58.42" y2="76.2" width="0.1524" layer="91"/>
+<label x="50.8" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$31" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="SDO"/>
 <wire x1="71.12" y1="73.66" x2="58.42" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$36" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="!CS"/>
-<wire x1="71.12" y1="68.58" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$50" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="GND"/>
-<wire x1="71.12" y1="63.5" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$65" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="VREF+"/>
-<wire x1="93.98" y1="88.9" x2="109.22" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$66" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="VREF-"/>
-<wire x1="93.98" y1="83.82" x2="109.22" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$71" class="0">
@@ -24498,10 +24502,15 @@ to disable I2C pullup resistors</text>
 <wire x1="93.98" y1="66.04" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$78" class="0">
+<net name="SCL" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="EXP"/>
-<wire x1="93.98" y1="63.5" x2="109.22" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="FO"/>
+<wire x1="71.12" y1="83.82" x2="58.42" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="SCK"/>
+<wire x1="71.12" y1="76.2" x2="58.42" y2="76.2" width="0.1524" layer="91"/>
+<label x="50.8" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
