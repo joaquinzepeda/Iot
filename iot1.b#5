@@ -3192,6 +3192,12 @@ design rules under a new name.</description>
 </signal>
 <signal name="SOIL_MOISTURE_1">
 <contactref element="X1" pad="3"/>
+<contactref element="R18" pad="1"/>
+<contactref element="R17" pad="2"/>
+<contactref element="R19" pad="1"/>
+<wire x1="16.9799" y1="-60.6044" x2="68.0212" y2="6.1976" width="0" layer="19" extent="1-1"/>
+<wire x1="6.8199" y1="-65.1764" x2="16.9799" y2="-60.6044" width="0" layer="19" extent="1-1"/>
+<wire x1="6.8199" y1="-69.7484" x2="6.8199" y2="-65.1764" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V_IN">
 <contactref element="IC2" pad="1"/>
@@ -3306,7 +3312,7 @@ design rules under a new name.</description>
 <wire x1="16.9799" y1="-69.7484" x2="16.9799" y2="-74.3204" width="0" layer="19" extent="1-1"/>
 <wire x1="11.9507" y1="-26.0096" x2="16.9799" y2="-69.7484" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$76">
+<signal name="SOIL_MOISUTURE_0">
 <contactref element="R14" pad="1"/>
 <contactref element="R15" pad="2"/>
 <contactref element="R13" pad="1"/>
@@ -3319,13 +3325,6 @@ design rules under a new name.</description>
 <contactref element="IC6" pad="3"/>
 <wire x1="6.8199" y1="-37.7444" x2="16.9799" y2="-56.0324" width="0" layer="19" extent="1-1"/>
 <wire x1="14.4907" y1="-33.6296" x2="6.8199" y2="-37.7444" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$80">
-<contactref element="R18" pad="1"/>
-<contactref element="R17" pad="2"/>
-<contactref element="R19" pad="1"/>
-<wire x1="6.8199" y1="-65.1764" x2="6.8199" y2="-69.7484" width="0" layer="19" extent="1-1"/>
-<wire x1="16.9799" y1="-60.6044" x2="6.8199" y2="-65.1764" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SOIL_MOISTURE_AMPLIFIED_0">
 <contactref element="IC5" pad="13"/>
