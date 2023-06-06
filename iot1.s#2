@@ -25550,6 +25550,8 @@ to disable I2C pullup resistors</text>
 </sheet>
 <sheet>
 <plain>
+<text x="116.84" y="132.08" size="1.778" layer="91">Este chip transforma de diferencial (salida del sensor de nuevo) a serial (hacia el arduino)</text>
+<text x="93.98" y="185.42" size="1.778" layer="91">Aquí se debería conectar el sensor que tiene una alimentación de 12V y 3 pines más que salen en la página de wsp</text>
 </plain>
 <instances>
 <instance part="FRAME6" gate="G$1" x="63.5" y="60.96" smashed="yes">
