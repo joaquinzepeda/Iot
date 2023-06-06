@@ -24735,22 +24735,25 @@ to disable I2C pullup resistors</text>
 <wire x1="162.56" y1="139.7" x2="187.96" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$43" class="0">
+<net name="MUX_0" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PD2(INT0)"/>
 <wire x1="162.56" y1="137.16" x2="187.96" y2="137.16" width="0.1524" layer="91"/>
+<label x="190.5" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$44" class="0">
+<net name="MUX_1" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PD3(INT1)"/>
 <wire x1="162.56" y1="134.62" x2="187.96" y2="134.62" width="0.1524" layer="91"/>
+<label x="190.5" y="134.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$45" class="0">
+<net name="MUX_2" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PD4(XCK/T0)"/>
 <wire x1="162.56" y1="132.08" x2="187.96" y2="132.08" width="0.1524" layer="91"/>
+<label x="190.5" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$58" class="0">
@@ -25406,7 +25409,7 @@ to disable I2C pullup resistors</text>
 <label x="68.58" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$79" class="0">
+<net name="SOIL_MOISTURE_AMPLIFIED_0" class="0">
 <segment>
 <pinref part="IC6" gate="A" pin="OUT"/>
 <wire x1="129.54" y1="134.62" x2="144.78" y2="134.62" width="0.1524" layer="91"/>
@@ -25417,6 +25420,8 @@ to disable I2C pullup resistors</text>
 <wire x1="127" y1="154.94" x2="144.78" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="154.94" x2="144.78" y2="134.62" width="0.1524" layer="91"/>
 <junction x="144.78" y="134.62"/>
+<wire x1="144.78" y1="134.62" x2="154.94" y2="134.62" width="0.1524" layer="91"/>
+<label x="160.02" y="134.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$81" class="0">
@@ -25445,7 +25450,7 @@ to disable I2C pullup resistors</text>
 <wire x1="101.6" y1="73.66" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$84" class="0">
+<net name="SOIL_MOISTURE_AMPLIFIED_1" class="0">
 <segment>
 <pinref part="IC6" gate="B" pin="OUT"/>
 <wire x1="127" y1="76.2" x2="144.78" y2="76.2" width="0.1524" layer="91"/>
@@ -25456,9 +25461,11 @@ to disable I2C pullup resistors</text>
 <wire x1="127" y1="88.9" x2="144.78" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="88.9" x2="144.78" y2="76.2" width="0.1524" layer="91"/>
 <junction x="144.78" y="76.2"/>
+<wire x1="144.78" y1="76.2" x2="154.94" y2="76.2" width="0.1524" layer="91"/>
+<label x="160.02" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SOIL_MOISUTURE_0" class="0">
+<net name="SOIL_MOISTURE_0" class="0">
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="132.08" x2="88.9" y2="111.76" width="0.1524" layer="91"/>
