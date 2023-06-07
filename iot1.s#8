@@ -25433,6 +25433,7 @@ Source: MAX3465-MAX3469.pdf</description>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="17.4k"/>
 <part name="L2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-EU" device="L1812" package3d_urn="urn:adsk.eagle:package:23494/2" value="100uH"/>
 <part name="D3" library="1N5821" deviceset="1N5821" device=""/>
+<part name="X4" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2041" device="" package3d_urn="urn:adsk.eagle:package:8078635/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -26439,6 +26440,19 @@ to disable I2C pullup resistors</text>
 <attribute name="NAME" x="87.63" y="90.3986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="87.63" y="85.598" size="1.778" layer="96"/>
 </instance>
+<instance part="X4" gate="-1" x="119.38" y="30.48" smashed="yes">
+<attribute name="NAME" x="121.92" y="29.718" size="1.524" layer="95"/>
+<attribute name="VALUE" x="118.618" y="31.877" size="1.778" layer="96"/>
+</instance>
+<instance part="X4" gate="-2" x="119.38" y="27.94" smashed="yes">
+<attribute name="NAME" x="121.92" y="27.178" size="1.524" layer="95"/>
+</instance>
+<instance part="X4" gate="-3" x="119.38" y="25.4" smashed="yes">
+<attribute name="NAME" x="121.92" y="24.638" size="1.524" layer="95"/>
+</instance>
+<instance part="X4" gate="-4" x="119.38" y="22.86" smashed="yes">
+<attribute name="NAME" x="121.92" y="22.098" size="1.524" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -26542,6 +26556,11 @@ to disable I2C pullup resistors</text>
 <wire x1="101.6" y1="76.2" x2="101.6" y2="73.66" width="0.1524" layer="91"/>
 <label x="101.6" y="71.12" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X4" gate="-4" pin="S"/>
+<wire x1="116.84" y1="22.86" x2="104.14" y2="22.86" width="0.1524" layer="91"/>
+<label x="96.52" y="22.86" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SOIL_MOISTURE_1" class="0">
 <segment>
@@ -26603,12 +26622,22 @@ to disable I2C pullup resistors</text>
 <wire x1="78.74" y1="99.06" x2="78.74" y2="106.68" width="0.1524" layer="91"/>
 <label x="78.74" y="109.22" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X4" gate="-3" pin="S"/>
+<wire x1="116.84" y1="25.4" x2="104.14" y2="25.4" width="0.1524" layer="91"/>
+<label x="96.52" y="25.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SDA" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="SDI"/>
 <wire x1="193.04" y1="142.24" x2="180.34" y2="142.24" width="0.1524" layer="91"/>
 <label x="172.72" y="142.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X4" gate="-1" pin="S"/>
+<wire x1="116.84" y1="30.48" x2="104.14" y2="30.48" width="0.1524" layer="91"/>
+<label x="96.52" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$31" class="0">
@@ -26650,6 +26679,11 @@ to disable I2C pullup resistors</text>
 <pinref part="IC3" gate="G$1" pin="SCK"/>
 <wire x1="193.04" y1="139.7" x2="180.34" y2="139.7" width="0.1524" layer="91"/>
 <label x="172.72" y="139.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X4" gate="-2" pin="S"/>
+<wire x1="116.84" y1="27.94" x2="104.14" y2="27.94" width="0.1524" layer="91"/>
+<label x="96.52" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
