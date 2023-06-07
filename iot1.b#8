@@ -3797,10 +3797,8 @@ design rules under a new name.</description>
 <contactref element="R9" pad="1"/>
 <contactref element="R8" pad="2"/>
 <contactref element="U3" pad="2"/>
-<wire x1="79.2988" y1="72.7075" x2="76.8731" y2="65.5701" width="0" layer="19" extent="1-1"/>
+<wire x1="82.8802" y1="72.82" x2="76.8731" y2="65.5701" width="0" layer="19" extent="1-1"/>
 <wire x1="79.8322" y1="57.8993" x2="76.8731" y2="65.5701" width="0" layer="19" extent="1-1"/>
-<wire x1="82.8802" y1="72.82" x2="79.4113" y2="72.82" width="0.254" layer="1"/>
-<wire x1="79.4113" y1="72.82" x2="79.2988" y2="72.7075" width="0.254" layer="1"/>
 </signal>
 <signal name="N$76">
 <contactref element="LED1" pad="K"/>
