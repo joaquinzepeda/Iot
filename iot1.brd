@@ -3580,6 +3580,25 @@ design rules under a new name.</description>
 <wire x1="38.0746" y1="71.1136" x2="38.4683" y2="70.7199" width="0.1778" layer="1"/>
 <wire x1="37.0952" y1="71.1136" x2="36.3078" y2="71.1136" width="0.1778" layer="1"/>
 <wire x1="49.554" y1="8.9811" x2="46.5223" y2="8.9811" width="0.1778" layer="1"/>
+<polygon width="0.508" layer="1">
+<vertex x="95.0849" y="99.9871"/>
+<vertex x="95.2246" y="99.8474"/>
+<vertex x="95.2246" y="0.254"/>
+<vertex x="0" y="0.254"/>
+<vertex x="0" y="99.8601"/>
+</polygon>
+<polygon width="0.508" layer="16">
+<vertex x="0" y="99.7077"/>
+<vertex x="94.7166" y="99.7077"/>
+<vertex x="94.8944" y="99.5299"/>
+<vertex x="94.8944" y="0.4191"/>
+<vertex x="94.7293" y="0.254"/>
+<vertex x="0.5207" y="0.254"/>
+<vertex x="0.4318" y="0.3429"/>
+<vertex x="0.4318" y="99.3775"/>
+<vertex x="0.3429" y="99.4664"/>
+<vertex x="0.5207" y="99.6442"/>
+</polygon>
 </signal>
 <signal name="SCL">
 <contactref element="R1" pad="1"/>
