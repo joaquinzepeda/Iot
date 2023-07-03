@@ -8,6 +8,5 @@ Joaquín Zepeda, FCFM.
 
 # Diseño PCB
 
-## Diagrama de Bloques
-
-# Máquinas de estado
+Se diseño la siguiente placa PCB para un sistema de regadio automático. 
+![pcb](assets/pcb.png)
